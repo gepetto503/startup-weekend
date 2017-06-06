@@ -434,22 +434,35 @@ a {
  */
 body {
   color: #222222;
-  font: normal 125%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+  font: normal 135%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+
+h1 {
+  font-weight: 900;
+  font-size: 220%;
+  margin: 10px 0px; }
+
+p {
+  font-size: 140%;
+  line-height: 2em; }
+
+.hero {
+  color: white;
+  line-height: 2.25rem; }
 
 .findEvent h3 {
   text-align: center;
-  color: white; }
-
-.hero {
   color: white; }
 
 .findEvent p:last-child {
   text-align: center;
   color: white; }
 
-.content-1 {
+.content-grid {
   text-align: center; }
 
+@media screen and (min-width: 768px) {
+  .hero {
+    text-align: center; } }
 /**
  * Clear inner floats
  */
@@ -519,23 +532,69 @@ body {
   background: url("../../images/hero.png") no-repeat;
   background-position-x: center;
   background-size: cover;
-  padding: 40px 25px;
+  padding: 30px 25px;
   /**/ }
 
 /* styles for content grid */
-.content-1 {
+.content-grid {
   /* back ground for whole section */
   background-color: #f4f4f4; }
 
 .content-heading {
   /* div that holds header and subheader before grid columns start */
-  padding: 20px; }
+  padding: 10%; }
 
 .content-piece {
   /* styling for each content piece chunk, each within it's own column*/
   background-color: white;
   padding: 20px;
-  margin: 20px 0px; }
+  margin: 20px 0px;
+  margin-top: 40px;
+  min-height: 300px; }
+
+.connect, .discover, .learn, .start {
+  /* set relative pos for divs so pseudo elements will position absolutely*/
+  position: relative; }
+
+.connect:before {
+  content: url("../../images/icon-connect.svg");
+  display: table;
+  clear: both;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1; }
+
+.discover:before {
+  content: url("../../images/icon-discover.svg");
+  display: table;
+  clear: both;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1; }
+
+.learn:before {
+  content: url("../../images/icon-learn.svg");
+  display: table;
+  clear: both;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1; }
+
+.start:before {
+  content: url("../../images/icon-start.svg");
+  display: table;
+  clear: both;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1; }
 
 .findEvent {
   background-color: #3ccf80;

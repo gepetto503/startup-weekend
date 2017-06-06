@@ -3,15 +3,29 @@
  */
 body {
   color: $text-color;
-  font: normal 125% / 1.4 $text-font-stack;
+  font: normal 135% / 1.4 $text-font-stack;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 220%;
+  margin: 10px 0px;
+}
+
+p {
+  font-size: 140%;
+  line-height: 2em;
+}
+
+
+
+.hero {
+  color: white;
+  line-height: 2.25rem;
 }
 
 .findEvent h3 {
   text-align: center;
-  color: white;
-}
-
-.hero {
   color: white;
 }
 
@@ -20,6 +34,16 @@ body {
   color: white;
 }
 
-.content-1 {
+.content-grid {
   text-align: center;
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+  .hero {
+    text-align: center;
+  }
+
 }
