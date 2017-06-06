@@ -1,3 +1,33 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
+.header {
+  border: 1px solid red;
+  background: url('../../images/hero.png') no-repeat;
+  background-position-x: center;
+  background-size: cover;
+  padding: 40px 0px;
+  }
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.navbar-header {
+  background-color: white;
+  color: black;
+
+}
+
+
+// .button {
+//   background-color: black;
+// }
+
+
+/* sizing and padding for startup weekend logo */
+.startup-logo {
+  width: 24rem;
+  padding: 7px;
+  float: left;
+}

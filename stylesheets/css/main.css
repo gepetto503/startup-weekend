@@ -436,6 +436,9 @@ body {
   color: #222222;
   font: normal 125%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
 
+.header {
+  color: white; }
+
 /**
  * Clear inner floats
  */
@@ -491,7 +494,31 @@ body {
   position: absolute;
   width: 1px; }
 
-.container {
-  border: 1px solid black; }
+.header {
+  border: 1px solid red;
+  background: url("../../images/hero.png") no-repeat;
+  background-position-x: center;
+  background-size: cover;
+  padding: 40px 0px; }
+
+.navbar {
+  margin-bottom: 0px; }
+
+.navbar-header {
+  background-color: white;
+  color: black; }
+
+/* sizing and padding for startup weekend logo */
+.startup-logo {
+  width: 24rem;
+  padding: 7px;
+  float: left; }
+
+/* icon bars */
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: black; }
+
+.navbar-inverse .navbar-toggle {
+  border-color: white; }
 
 /*# sourceMappingURL=main.css.map */

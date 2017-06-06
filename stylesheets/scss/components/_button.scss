@@ -1,3 +1,13 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
+
+
+/* icon bars */
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: black;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: white;
+}
