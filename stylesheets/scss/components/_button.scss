@@ -5,9 +5,18 @@
 
 /* icon bars */
 .navbar-inverse .navbar-toggle .icon-bar {
-  background-color: black;
+  background-color: #3ccf80;
 }
 
-.navbar-inverse .navbar-toggle {
-  border-color: white;
+.navbar-inverse {
+  border: none;
+}
+
+.navbar-toggle {
+  border: none;
+}
+
+.go {
+  background-color: white;
+  border: none;
 }

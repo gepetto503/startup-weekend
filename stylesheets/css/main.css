@@ -436,8 +436,19 @@ body {
   color: #222222;
   font: normal 125%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
 
-.header {
+.findEvent h3 {
+  text-align: center;
   color: white; }
+
+.hero {
+  color: white; }
+
+.findEvent p:last-child {
+  text-align: center;
+  color: white; }
+
+.content-1 {
+  text-align: center; }
 
 /**
  * Clear inner floats
@@ -494,16 +505,6 @@ body {
   position: absolute;
   width: 1px; }
 
-.header {
-  border: 1px solid red;
-  background: url("../../images/hero.png") no-repeat;
-  background-position-x: center;
-  background-size: cover;
-  padding: 40px 0px; }
-
-.navbar {
-  margin-bottom: 0px; }
-
 .navbar-header {
   background-color: white;
   color: black; }
@@ -514,11 +515,48 @@ body {
   padding: 7px;
   float: left; }
 
+.hero {
+  background: url("../../images/hero.png") no-repeat;
+  background-position-x: center;
+  background-size: cover;
+  padding: 40px 25px;
+  /**/ }
+
+/* styles for content grid */
+.content-1 {
+  /* back ground for whole section */
+  background-color: #f4f4f4; }
+
+.content-heading {
+  /* div that holds header and subheader before grid columns start */
+  padding: 20px; }
+
+.content-piece {
+  /* styling for each content piece chunk, each within it's own column*/
+  background-color: white;
+  padding: 20px;
+  margin: 20px 0px; }
+
+.findEvent {
+  background-color: #3ccf80;
+  width: 100%;
+  padding: 20px 0px; }
+
 /* icon bars */
 .navbar-inverse .navbar-toggle .icon-bar {
-  background-color: black; }
+  background-color: #3ccf80; }
 
-.navbar-inverse .navbar-toggle {
-  border-color: white; }
+.navbar-inverse {
+  border: none; }
+
+.navbar-toggle {
+  border: none; }
+
+.go {
+  background-color: white;
+  border: none; }
+
+.headerForm {
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

@@ -19,13 +19,17 @@
 
 // 4. Layout-related sections
 @import
-  'layout/header',
+  'layout/navigation',
+  'layout/hero',
+  'layout/content-grid',
   'layout/footer',
-  'layout/gridSystem';
+  'layout/gridSystem',
+  'layout/findEvent';
 
 // 5. Components
 @import
-  'components/button';
+  'components/button',
+  'components/forms';
 
 // 6. Page-specific styles
 @import

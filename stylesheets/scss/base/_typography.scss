@@ -6,6 +6,20 @@ body {
   font: normal 125% / 1.4 $text-font-stack;
 }
 
-.header {
+.findEvent h3 {
+  text-align: center;
   color: white;
+}
+
+.hero {
+  color: white;
+}
+
+.findEvent p:last-child {
+  text-align: center;
+  color: white;
+}
+
+.content-1 {
+  text-align: center;
 }
